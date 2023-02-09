@@ -13,6 +13,8 @@ export default function Music() {
       <article className="content text-md">
         <h3 className="text-3xl">Summary:</h3>
         <br className="space-y-8"></br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GSpHw8jqjdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <br className="space-y-8"></br>
         <p>The user is able to sign up/into the GUI and can choose to get song recommendations by inputting a song into the system. </p>
         <br className="space-y-3"></br>
         <p>The system will tell the user what genre it is in the console and give song recommendations through the model. </p>
