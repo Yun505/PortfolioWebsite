@@ -73,7 +73,7 @@ export default function Home() {
             </div>
           </div>
           <div className="card w-96 bg-base-100 shadow-xl">
-            <figure><img src={Natto} alt="Shoes" /></figure>
+            <figure><img src={Natto}  /></figure>
             <div className="card-body">
               <h2 className="card-title">
                 Natto Obstacle Course
@@ -102,7 +102,7 @@ export default function Home() {
             </div>
           </div>
           <div className="card w-96 bg-base-100 shadow-xl">
-            <figure><img src={Micro} alt="Shoes" /></figure>
+            <figure><img src={Micro} /></figure>
             <div className="card-body">
               <h2 className="card-title">
                 AP Micro Dating Simulator

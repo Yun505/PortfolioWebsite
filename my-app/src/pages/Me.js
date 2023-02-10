@@ -46,8 +46,8 @@ export default function Me() {
         </div>
         <br className="space-y-4"></br>
         <br className="space-y-4"></br>
-      </div>
 
+      </div>
     </div>
   )
 }
