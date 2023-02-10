@@ -27,7 +27,7 @@ export default function Me() {
         <br className="space-y-4"></br>
         <p>Morning Walks: I like to wake up early and walk around the school track before my first class.</p>
         <br className="space-y-4"></br>
-        <br className="space-y-4"></br>
+        <br className="space-y-2"></br>
         <div className="btn-group flex  w-full py-2">
           <a href="#item1" className="btn text-white btn-info hover:bg-gradient-to-r hover:from-sky-100 hover:to-sky-200 hover:border-sky-200 hover:text-black text-md">Hiking</a>
           <a href="#item2" className="btn text-white btn-info hover:bg-gradient-to-r hover:from-sky-100 hover:to-sky-200 hover:border-sky-200 hover:text-black text-md">GWC</a>
@@ -44,14 +44,8 @@ export default function Me() {
             <img src={morning} className="w-full" />
           </div>
         </div>
-      </div>
-      <div className="container">
-        <br className="space-y-8"></br>
-        <br className="space-y-8"></br>
-        <br className="space-y-8"></br>
-        <h3 className="text-3xl">Blog:</h3>
         <br className="space-y-4"></br>
-        
+        <br className="space-y-4"></br>
       </div>
 
     </div>
