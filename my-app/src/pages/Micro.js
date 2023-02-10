@@ -12,7 +12,7 @@ export default function Micro() {
       <br className="space-y-8"></br>
       <br className="space-y-8"></br>
       <article className="content text-md">
-        <h3 className="text-3xl">Idea:</h3>
+        <h3 className="text-3xl">Summary:</h3>
         <br className="space-y-8"></br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Ot85pQ76atM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <br className="space-y-8"></br>

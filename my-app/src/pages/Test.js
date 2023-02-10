@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Me from "../images/me_profile.jpg";
 import Natto from "../images/Natto.png";
+import { MDBAccordion, MDBAccordionItem } from 'mdb-react-ui-kit';
 export default function App() {
     return (
         <div className="h-screen bg-yellow-50 flex grid px-20">
@@ -92,11 +93,12 @@ export default function App() {
                 </div>
                 <div className="avatar">
                     <div className="w-44 rounded-full ring ring-sky-300 ring-offset-base-100 ring-offset-2">
-                        <img src={Me}/>
+                        <img src={Me} />
                     </div>
                 </div>
 
             </div>
+            
         </div >
     )
 }

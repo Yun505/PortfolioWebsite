@@ -2,10 +2,10 @@ import Alumni from "../images/Alumni.png";
 import Natto from "../images/Natto.png";
 import Micro from "../images/Micro.png";
 import Me from "../images/me_profile.jpg";
+import { MDBAccordion, MDBAccordionItem } from 'mdb-react-ui-kit';
 
 export default function Home() {
   return (
-
     <div className="container pl-20 pr-20">
       <br></br>
       <br></br>
@@ -36,9 +36,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-
-
 
       <br className="space-y-8"></br>
 
