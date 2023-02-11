@@ -3,20 +3,55 @@ import luna from "../images/luna.png"
 import rain from "../images/rain.jpg"
 import giant from "../images/giant.jpg"
 import bowling from "../images/bowling.jpg"
+import sweets from "../images/korea.jpg"
 import harbs from "../images/harbs.jpg"
+import flowers from "../images/flowers.jpg"
+import photos from "../images/photos.jpg"
+import sea from "../images/sea.jpg"
+import sunset from "../images/sunset.jpg"
+import  jeju from "../images/jeju.jpg"
+import  component from "../images/component.png"
 export default function Misc() {
   return (
     <div className="container pl-20 pr-20">
       <br></br>
       <br></br>
       <br></br>
-      <h1 className="text-5xl text-sky-500">Miscellaneous</h1>
+      <h1 className="text-6xl">Miscellaneous</h1>
       <br className="space-y-8"></br>
       <br className="space-y-8"></br>
-      <h3 className="text-3xl text-green-400">Photography:</h3>
+      <h3 className="text-3xl text-green-400">Hobbies:</h3>
       <br className="space-y-8"></br>
+      <p className="text-xl underline text-semibold decoration-green-400">Photography:</p>
       <br className="space-y-8"></br>
-      
+      <div className="flex w-1/6 gap-2">
+        <img src={sweets} className="rounded" />
+        <img src={photos} className="rounded" />
+        <img src={flowers} className="rounded" />
+        <img src={sea} className="rounded" />
+        <img src={sunset} className="rounded" />
+        <img src={jeju} className="rounded" />
+      </div>
+      <br className="space-y-8"></br>
+      <p className="text-xl underline text-semibold decoration-green-400">Experimenting with UI </p>
+      <br className="space-y-3"></br>
+      <p>Below is a picture of the component board I made for my current project at my school.</p>
+      <br className="space-y-3"></br>
+      <p>Currently, my favorite component libraries are Flowbite and DaisyUI.</p>
+      <br className="space-y-3"></br>
+      <img src={component}></img>
+      {/* <br className="space-y-8"></br>
+      <h3 className="text-3xl text-green-400">Some Drawings:</h3>
+      <div className="flex w-1/6 gap-2">
+        <img src={sweets} className="rounded" />
+        <img src={photos} className="rounded" />
+        <img src={flowers} className="rounded" />
+        <img src={sea} className="rounded" />
+        <img src={sunset} className="rounded" />
+        <img src={jeju} className="rounded" />
+      </div> */}
+
+      <br className="space-y-8"></br>
       <h3 className="text-3xl text-violet-700 ">Blog:</h3>
       <br className="space-y-8"></br>
       <div className="container justify-start">
@@ -67,7 +102,7 @@ export default function Misc() {
               writing essays :(. It was also really hard to get a reservation so when we finally had time, I recall I stayed up until midnight
               (when the reservation site opens) to get a seat. We also went to nearby bakeries for some snacks and had a lot of fun.</p>
             <br></br>
-            <img src={butter}></img>
+            <img className="w-2/3" src={butter}></img>
             <br></br>
             <p>We got butterbeer later at the Harry Potter store. The drink was amazing and it was cool how we got the cup as a souvenir.
               We stayed pretty late in the city and the city was so much prettier during the dark. I was kind of scared when waiting for our ride, but otherwise
@@ -102,7 +137,7 @@ export default function Misc() {
             <p>
               The light that shines unlike the rest, able to see past my walls of complex thought.
             </p>
-            <br></br>    
+            <br></br>
             <img className="w-3/6" src={luna}>
             </img>
             <br></br>
@@ -156,7 +191,7 @@ export default function Misc() {
               We had pocky and madeleines during our break. The 2 hour hike took us 4 hours as we sat on the rocks chatting about our Summer.
             </p>
             <br></br>
-            <img src={giant}></img>
+            <img className="w-1/3" src={giant}></img>
             <br></br>
           </div>
         </div>
@@ -168,7 +203,7 @@ export default function Misc() {
           <div className="collapse-content">
             <br></br>
             <p>I've been a fan of Tom Cruise for a while and I was super psyched to watch the new movie. The action was amazing and
-              the music was perfectly incorporated throughout each scene. I think my favorite song was <a className="text-purple-400 border-white inline-block rounded hover:bg-purple-300 hover:text-black" href="https://open.spotify.com/track/4h9wh7iOZ0GGn8QVp4RAOB?si=ee40eadb7ed74da3">I Ain't Worried</a>.
+              the music was perfectly incorporated throughout each scene. I think my favorite song was <a className="text-purple-400 border-white inline-block rounded hover:bg-purple-300 hover:text-black">I Ain't Worried</a>.
             </p>
             <br></br>
             <p>Afterwards we went bowling, which was really nice because I hadn't gone bowling in years. At one point I managed to knock all the pins down in one go, which surprised me. </p>

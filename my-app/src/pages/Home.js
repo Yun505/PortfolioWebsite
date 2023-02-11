@@ -2,7 +2,8 @@ import Alumni from "../images/Alumni.png";
 import Natto from "../images/Natto.png";
 import Micro from "../images/Micro.png";
 import Me from "../images/me_profile.jpg";
-import { MDBAccordion, MDBAccordionItem } from 'mdb-react-ui-kit';
+import harbs from "../images/harbs.jpg"
+
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
             <br className="space-y-1"></br>
             <p>More: <a className="bg-sky-100 hover:bg-sky-400 hover:text-white inline-block block round px-2 rounded-full" href="https://github.com/Yun505">Github</a>, <a className="bg-sky-100 hover:bg-sky-400 hover:text-white inline-block block round px-2 rounded-full " href="https://www.linkedin.com/in/hayun-jung-4b8b49244/">LinkedIn</a></p>
             <br className="space-y-1"></br>
-            <p>Contact me on <a className="underline text-sky-500 hover:text-sky-700 hover:font-semibold" href="mailto:yunjun505@gmail.com">yunjun505@gmail.com</a></p>
+            <p>Contact me on <a className="underline text-semibold decoration-green-400 hover:text-green-500 " href="mailto:yunjun505@gmail.com">yunjun505@gmail.com</a></p>
             <br className="space-y-1"></br>
             <p>Bergen County Academies (ATCS) '23</p>
             <br className="space-y-1"></br>
@@ -73,7 +74,7 @@ export default function Home() {
             </div>
           </div>
           <div className="card w-96 bg-base-100 shadow-xl">
-            <figure><img src={Natto}  /></figure>
+            <figure><img src={Natto} /></figure>
             <div className="card-body">
               <h2 className="card-title">
                 Natto Obstacle Course
@@ -133,21 +134,63 @@ export default function Home() {
           </div>
         </div>
         <br className="space-y-8"></br>
-        <br className="space-y-2"></br>
-        <p><a className="text-2xl underline text-sky-500 hover:text-sky-700 hover:font-semibold" href="/portfolio">More Projects~</a></p>
+        <br className="space-y-1"></br>
+        <p><a className="text-2xl underline text-semibold decoration-sky-400 hover:text-sky-500 " href="/portfolio">More Projects-</a></p>
       </div>
 
       <br className="space-y-8"></br>
       <br className="space-y-8"></br>
       <br className="space-y-8"></br>
+      <h3 className="text-3xl ">Misc:</h3>
       <div className="text-xl flex grid">
-        <h3 className="text-3xl ">Misc:</h3>
         <br className="space-y-4"></br>
         <div className="">
+          <h1 className="text-xl">Blog + <a className="underline text-semibold decoration-green-400 hover:text-green-500 " href="/misc">More</a></h1>
+          <br className="space-y-8"></br>
+          <div className="container justify-start">
+            <div tabIndex={0} className="collapse collapse-arrow border border-violet-700 bg-base-100 rounded-box">
+              <div className="collapse-title text-md font-medium text-violet-700">
+                NYC Food Trip II 1/15/23
+              </div>
+              <div className="collapse-content text-sm">
+                <br></br>
+                <p>After apps, my friend and I went to the city again :D. We went around Soho trying different bakeries. The cronut at dominique ansel bakery was heavenly.</p>
+                <br></br>
+                <p>We also went to Harbs and I got to say their matcha cake is phenomenal. It's not too sweet. I also really liked their crepe cake shown below. The bakery was really pretty and if you ever go there, I'd suggest getting the royal milk tea with it.</p>
+                <br className="space-y-5"></br>
+                <img src={harbs}></img>
+              </div>
+            </div>
+            <br className="space-y-2"></br>
+            <div tabIndex={1} className="collapse collapse-arrow border border-violet-700 bg-base-100 rounded-box">
+              <div className="collapse-title text-md font-medium text-violet-700">
+                Reborn Rich Kdrama 12/10/22
+              </div>
+              <div className="collapse-content text-sm">
+                <br></br>
+                <p>Recently, I've been binging Reborn Rich. It's really good not just because of my favorite actor(Song Joon Ki) being there,
+                  but the plot leaves me glued to the screen. I've been recommending it to everyone that likes Kdramas and I'm really glad
+                  they're releasing 3 episodes a week. I heard the book they based the story off is really good and I'm looking forward to reading it
+                  soon. </p>
+                <br></br>
 
+                <p>This is kind of silly, but this show makes me want to learn stocks and invest more. My favorite character currently isn't who Song Joon Ki plays, but
+                  the grandfather. I think his actor should honestly win an award this year, the acting was phenomenal.
+                  His character is probably the smartest in the entire show. It's not Dojun who knows the future, although he is brilliant in his own way.
+                  It's really fun seeing the historic events during my parent's time like the IMF crisis in the show and I find the parallels to Samsung pretty interesting
+                  with calling the company Soonyang and all.
+                </p>
+                <br></br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6lGImvjI_Sw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <br className="space-y-8"></br>
+          <br className="space-y-8"></br>
         </div>
       </div>
 
+      
     </div>
 
 

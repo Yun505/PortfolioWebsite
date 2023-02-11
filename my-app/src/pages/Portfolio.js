@@ -12,7 +12,7 @@ export default function Portfolio() {
       <br></br>
       <br></br>
       <div className="text-xl grid pl-30 pr-30">
-        <h3 className="text-6xl ">Portfolio:</h3>
+        <h3 className="text-6xl ">Portfolio</h3>
         <br className="space-y-5"></br>
         <br className="space-y-5"></br>
         <p className="text-2xl">Click on the buttons for the github repository and more information</p>
