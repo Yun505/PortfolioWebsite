@@ -1,13 +1,9 @@
-import hiking from "../images/hiking.jpg";
-import bowling from "../images/bowling.jpg";
-import butter from "../images/butter.jpg";
-import gwc from "../images/gwc.jpg";
-import giant from "../images/giant.jpg";
-import luna from "../images/luna.png";
-import morning from "../images/morning.jpg";
-import rain from "../images/rain.jpg";
+// import hiking from "../images/hiking.jpg";
+// import gwc from "../images/gwc.jpg";
+// import morning from "../images/morning.jpg";
+
 import "../App.css";
-import { MDBAccordion, MDBAccordionItem } from 'mdb-react-ui-kit';
+// import { MDBAccordion, MDBAccordionItem } from 'mdb-react-ui-kit';
 
 export default function Me() {
   return (
@@ -19,6 +15,15 @@ export default function Me() {
       <br className="space-y-8"></br>
       <br className="space-y-8"></br>
       <h3 className="text-3xl">Fun Facts About Me:</h3>
+      <br className="space-y-4"></br>
+      <div className="container pl-30 pr-30 text-xl">
+        <p>Writing: I have my own blog <a href="">website</a> hosted on github where I put poems and journals.</p>
+        <br className="space-y-4"></br>
+        <p>Drawing: I'm currently trying to master the art of drawing perfect hands.</p>
+        <br className="space-y-4"></br>
+        <p>My goal is to speak 4 languages before I graduate college! Currently I'm bilingual.</p>
+      </div>
+      {/* 
       <br className="space-y-4"></br>
       <div className="container pl-30 pr-30 text-xl">
         <p>Hiking: one of my favorite way to destress with friends.</p>
@@ -45,9 +50,9 @@ export default function Me() {
           </div>
         </div>
         <br className="space-y-4"></br>
-        <br className="space-y-4"></br>
+        <br className="space-y-4"></br> */}
 
-      </div>
+      {/* </div> */}
     </div>
   )
 }

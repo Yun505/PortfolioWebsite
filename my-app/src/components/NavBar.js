@@ -8,9 +8,9 @@ export default function NavBar() {
           <p className="nav-item text-2xl font-semibold border rounded py-2 px-2  hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-400 hover:border-sky-300 border-yellow-50 hover:text-white">Hayun Jung</p>
         </Link>
         <ul>
-          <CustomLink to="/misc">
+          {/* <CustomLink to="/misc">
             <p className="nav-item text-2xl font-semibold border rounded py-2 px-2  hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-400 hover:border-sky-300 border-yellow-50 hover:text-white">Misc</p>
-          </CustomLink>
+          </CustomLink> */}
           <CustomLink to="/portfolio">
             <p className="nav-item text-2xl font-semibold border rounded py-2 px-2  hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-400 hover:border-sky-300 border-yellow-50 hover:text-white">Portfolio</p>
           </CustomLink>

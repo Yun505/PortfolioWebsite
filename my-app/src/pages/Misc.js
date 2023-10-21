@@ -18,10 +18,10 @@ export default function Misc() {
       <br></br>
       <br></br>
       <h1 className="text-6xl">Miscellaneous</h1>
+      {/* <br className="space-y-8"></br>
       <br className="space-y-8"></br>
-      <br className="space-y-8"></br>
-      <h3 className="text-3xl text-green-400">Hobbies:</h3>
-      <br className="space-y-8"></br>
+      <h3 className="text-3xl text-green-400">Hobbies:</h3> */}
+      {/* <br className="space-y-8"></br>
       <p className="text-xl underline text-semibold decoration-green-400">Photography:</p>
       <br className="space-y-8"></br>
       <div className="flex w-1/6 gap-2">
@@ -39,7 +39,7 @@ export default function Misc() {
       <br className="space-y-3"></br>
       <p>Currently, my favorite component libraries are Flowbite and DaisyUI.</p>
       <br className="space-y-3"></br>
-      <img src={component}></img>
+      <img src={component}></img> */}
       {/* <br className="space-y-8"></br>
       <h3 className="text-3xl text-green-400">Some Drawings:</h3>
       <div className="flex w-1/6 gap-2">
@@ -51,7 +51,7 @@ export default function Misc() {
         <img src={jeju} className="rounded" />
       </div> */}
 
-      <br className="space-y-8"></br>
+      {/* <br className="space-y-8"></br>
       <h3 className="text-3xl text-violet-700 ">Blog:</h3>
       <br className="space-y-8"></br>
       <div className="container justify-start">
@@ -211,7 +211,7 @@ export default function Misc() {
             <img src={bowling}></img>
           </div>
         </div>
-      </div>
+      </div> */}
 
     </div>
   )
