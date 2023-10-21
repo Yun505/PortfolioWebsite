@@ -14,23 +14,24 @@ export default function Natto() {
         <br className="space-y-8"></br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/JDNeyeTWXgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <br className="space-y-8"></br>
-        <p>One day, I was eating Natto and struggling to get some of the sticky strings out of my hair when I came up with this idea.</p>
+        <p>It was just another day, and there I was, attempting to savor a bowl of Natto. As I twirled my chopsticks through the gooey strands, one fateful moment found those sticky strings making an audacious escape, entangling themselves in my hair. In that quirky instant, inspiration struck like a lightning bolt.</p>
         <br className="space-y-3"></br>
-        <p>I thought the strings were obstacles that I struggled with to get to eating the delicious food, the goal.</p>
+        <p>
+          I couldn't help but see these tiny, stubborn strands as obstacles in my path, much like the challenges we face in life. The goal, of course, was to enjoy that scrumptious bite of Natto at the end of the struggle.</p>
         <br className="space-y-3"></br>
-        <p>The layout is that of the bowl where the player is a rice grain trying to navigate through the bowl without hitting the obstacles. </p>
+        <p>This newfound vision led to the birth of an intriguing idea. I envisioned a digital realm where the player takes on the role of a humble grain of rice, embarking on a perilous journey within the confines of a bowl – their mission, navigating this confined culinary landscape while dodging the impending obstacles.</p>
         <br className="space-y-3"></br>
-        <p>There are 3 obstacles, my favorite being the sticky Natto.</p>
+        <p>In this rice-grain adventure, there are three primary obstacles, each presenting a unique set of challenges. My personal favorite among them is the notorious sticky Natto. This adversary, once encountered, exerts a captivating pull on our rice hero, slowing them down and momentarily turning them a distinct shade of red.</p>
         <br className="space-y-3"></br>
-        <p>Each obstacle slows down the player when hit but by different speeds.</p>
+        <p>When the player collides with any of these obstacles, it's as if they've encountered a life hurdle, resulting in a momentary setback. The encounter leaves our resilient rice grain feeling a bit red in the face, both metaphorically and in the game's charming aesthetics.</p>
         <br className="space-y-3"></br>
-        <p>The player becomes red when they hit an obstacle. </p>
+        <p>The game's journey unfolds across two distinct levels. The second level, in all its excitement, ramps up the stakes. Here, the player encounters an even denser array of obstacles and must navigate the treacherous terrain at a much faster pace. The game's progression mirrors the complexities and quick pace of life's challenges, urging players to test their mettle. </p>
         <br className="space-y-3"></br>
-        <p>There are two levels in this game and the second level has more obstacles + is faster.</p>
+        <p>In this deceptively simple, yet delightfully engaging concept, the Natto-laden adventure mirrors the unpredictable twists and turns of life itself, offering players a flavorful experience like no other.</p>
         <br className="space-y-3"></br>
         <h4 className=" font-semibold">Three obstacles: Sticky Natto, Natto, Sticky Strings</h4>
 
-      {/* TODO: change to natto image thing */}
+        {/* TODO: change to natto image thing */}
         <img src={sticky} className="inline-photo"></img>
 
 

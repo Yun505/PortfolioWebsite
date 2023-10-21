@@ -145,39 +145,29 @@ export default function Home() {
       <div className="text-xl flex grid">
         <br className="space-y-4"></br>
         <div className="">
-          <h1 className="text-xl"><a className="underline text-semibold decoration-green-400 hover:text-green-500 " href="/misc">Blog</a></h1>
+          <h1 className="text-xl"><a className="underline text-semibold decoration-green-400 hover:text-green-500 " href="/misc">Click for Blog/Hobbies</a></h1>
           <br className="space-y-8"></br>
           <div className="container justify-start">
-            <div tabIndex={0} className="collapse collapse-arrow border border-violet-700 bg-base-100 rounded-box">
-              <div className="collapse-title text-md font-medium text-violet-700">
-                NYC Food Trip II 1/15/23
-              </div>
-              <div className="collapse-content text-sm">
-                <br></br>
-                <p>After apps, my friend and I went to the city again :D. We went around Soho trying different bakeries. The cronut at dominique ansel bakery was heavenly.</p>
-                <br></br>
-                <p>We also went to Harbs and I got to say their matcha cake is phenomenal. It's not too sweet. I also really liked their crepe cake shown below. The bakery was really pretty and if you ever go there, I'd suggest getting the royal milk tea with it.</p>
-                <br className="space-y-5"></br>
-                <img src={harbs}></img>
-              </div>
-            </div>
             <br className="space-y-2"></br>
-            <div tabIndex={1} className="collapse collapse-arrow border border-violet-700 bg-base-100 rounded-box">
+            <div tabIndex={0} className="collapse collapse-arrow border border-violet-700 bg-base-100 rounded-box">
               <div className="collapse-title text-md font-medium text-violet-700">
                 Reborn Rich Kdrama Critique
               </div>
               <div className="collapse-content text-sm">
                 <br></br>
                 <p>Lately, I have been engrossed in the K-drama series, "Reborn Rich." This captivating show has managed to capture my attention, not merely due to the presence of my favorite actor, Song Joon Ki, but primarily because of its riveting plotline. I have enthusiastically recommended it to fellow K-drama enthusiasts and am delighted to note that the series is being released at a pace of three episodes per week.
-
-                  One aspect of "Reborn Rich" that particularly intrigues me is its literary origin. I have heard that the source material, the book on which the series is based, is exceptionally well-crafted, and I am eagerly anticipating delving into its pages in the near future.
-
-                  While it may sound somewhat unconventional, this show has sparked within me a newfound interest in the world of stocks and investment. Interestingly, my current favorite character is not portrayed by Song Joon Ki, but rather the role of the grandfather. His performance is nothing short of exemplary, and I believe that he deserves recognition and acclaim in this year's awards circuit. His character, in my opinion, stands as the intellectual fulcrum of the entire series.
-
-                  The brilliance of the storytelling lies not solely with the character of Dojun, who possesses knowledge of the future, but also in the rich historical context it offers. The incorporation of real-world events, such as the IMF crisis, adds a layer of authenticity to the narrative. Moreover, the parallels drawn between the fictional conglomerate, Soonyang, and the renowned Samsung conglomerate, pique my curiosity and make for a thought-provoking element within the show.</p>
+                </p>
                 <br></br>
-
+                <p> One aspect of "Reborn Rich" that particularly intrigues me is its literary origin. Interestingly, my current favorite character is not portrayed by Song Joon Ki, but rather the role of the grandfather. His performance is nothing short of exemplary, and I believe that he deserves recognition and acclaim in this year's awards circuit. His character, in my opinion, stands as the intellectual fulcrum of the entire series.</p>
+                <br></br>
                 <p>
+                  I have heard that the source material, the book on which the series is based, is exceptionally well-crafted, and I am eagerly anticipating delving into its pages in the near future.
+
+                  While it may sound somewhat unconventional, this show has sparked within me a newfound interest in the world of stocks and investment.
+                </p>
+                <br></br>
+                <p>
+                  The brilliance of the storytelling lies not solely with the character of Dojun, who possesses knowledge of the future, but also in the rich historical context it offers. The incorporation of real-world events, such as the IMF crisis, adds a layer of authenticity to the narrative. Moreover, the parallels drawn between the fictional conglomerate, Soonyang, and the renowned Samsung conglomerate, pique my curiosity and make for a thought-provoking element within the show.
                 </p>
                 <br></br>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/6lGImvjI_Sw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
