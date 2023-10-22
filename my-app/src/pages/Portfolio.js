@@ -24,7 +24,7 @@ export default function Portfolio() {
             <figure><img src={Alumni} /></figure>
             <div className="card-body">
               <h2 className="card-title text-md">
-                Alumni Portal
+                Current: Alumni Portal
                 <div className="badge badge-outline text-md">FrontEnd</div>
               </h2>
               <div className="row flex flex-wrap gap-2 text-md">

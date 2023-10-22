@@ -1,8 +1,8 @@
 import Ocaml from "../images/ocaml.png";
 import music from "../images/Music.png";
-import Micro from "../images/Micro.png";
+import Alumni from "../images/Alumni.png";
 import Me from "../images/me_profile.jpg";
-import harbs from "../images/harbs.jpg"
+// import harbs from "../images/harbs.jpg"
 
 
 export default function Home() {
@@ -22,8 +22,9 @@ export default function Home() {
             <br className="space-y-1"></br>
             <p>Contact me on <a className="underline text-semibold decoration-green-400 hover:text-green-500 " href="mailto:yunjun505@gmail.com">yunjun505@gmail.com</a></p>
             <br className="space-y-1"></br>
-            <p>UMASS Amherst Computer Science B.S.'26</p>
+            <p>UMass Amherst Computer Science B.S.'26</p>
             <br className="space-y-1"></br>
+            <p>Current Activities: President of WICS, <a href="https://www.hackher413.com/" className="underline text-semibold decoration-sky-400 hover:text-sky-600"> Hack(H)er413 Assistant Head of Technology</a>, Manning Undergraduate Student Impact Committee (Member)</p>
             {/* <p>Click on my profile on the right for random facts about me!</p> */}
           </div>
           <div className="col">
@@ -103,27 +104,26 @@ export default function Home() {
             </div>
           </div>
           <div className="card w-96 bg-base-100 shadow-xl">
-            <figure><img src={Micro} /></figure>
+            <figure><img src={Alumni} /></figure>
             <div className="card-body">
               <h2 className="card-title">
-                AP Micro Dating Simulator
-                <div className="badge badge-outline">Python</div>
+                Alumni Portal
+                <div className="badge badge-outline">FrontEnd</div>
               </h2>
               <div className="row flex flex-wrap gap-2 text-md">
-                <div className="badge badge-outline text-md">Photography</div>
-                <div className="badge badge-outline text-md">Game Development</div>
-                <div className="badge badge-outline">Ren'Py</div>
+                <div className="badge badge-outline text-md">Security</div>
+                <div className="badge badge-outline text-md">BackEnd</div>
               </div>
-              <p>Economies of Scale Review</p>
+              <p>Capstone Project </p>
               <div className="card-actions py-2 justify-end">
-                <a href="https://github.com/Yun505/MicroDatingSimulation">
+                <a href="https://github.com/RemingtonKim/AcademiesAlumni">
                   <button
                     className="text-sm border rounded py-2 px-4 bg-sky-100 hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-400 hover:border-sky-300  border-sky-100 hover:text-white">
                     github.io
                   </button>
                 </a>
                 <div>
-                  <a href="/micro">
+                  <a href="/alumni">
                     <button className="btn btn-sm border-sky-300 bg-sky-300 hover:border-sky-400 hover:bg-sky-400 btn-circle text-xs">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="16" height="16" viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"></path><path d="M11 11h2v6h-2zm0-4h2v2h-2z"></path></svg>
                     </button>

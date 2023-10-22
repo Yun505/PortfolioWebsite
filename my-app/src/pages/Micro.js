@@ -16,31 +16,22 @@ export default function Micro() {
         <br className="space-y-8"></br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Ot85pQ76atM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <br className="space-y-8"></br>
-        <p>Created for a Unit review for Microeconmics class.</p>
+        <p>Designed for a comprehensive unit review in my Microeconomics class, I sought a more engaging alternative to the usual Kahoot quiz. The aim was to infuse a touch of creativity into our learning experience.</p>
         <br className="space-y-3"></br>
-        <p>We needed something for creativity and I didn't want to do Kahoot, so I decided to make a game.</p>
+        <p>With a thorough grasp of the course material, I introduced an innovative game to my classmates, providing an exciting avenue to solidify our understanding of the concepts we had recently covered.</p>
         <br className="space-y-3"></br>
-        <p>After reviewing the material, I showed the class the game to review what they just learned.</p>
+        <p>The game unfolds with a series of five thought-provoking questions. An incorrect answer leads the player to a unique "basement scene" or what we can call a "warning scene." In this scenario, the consequences of the wrong choice are made evident.</p>
         <br className="space-y-3"></br>
-        <p>The game consists of 5 questions which if the person answers wrong, takes them to the basement scene[warning scene].</p>
+        <p>Following each question, I would lead the class through a brief review of the topic to reinforce their understanding before proceeding to the next question.</p>
         <br className="space-y-3"></br>
-        <p>After each question, I would review it briefly before moving onto the next question.</p>
+        <p>To enhance the game's immersive experience, I incorporated scenes and images captured within our very own school, BCA. These visuals were meticulously taken and creatively edited to add a personalized touch to the learning experience.</p>
         <br className="space-y-3"></br>
-        <p>The scenes or pictures shown throughout the game are of BCA that I took and edited.</p>
+        <p>Throughout the game, a penalty system was integrated. Every wrong answer incurred a penalty point, emphasizing the importance of accuracy in the learning process. The ultimate goal was to minimize these penalties and work toward a favorable outcome.</p>
         <br className="space-y-3"></br>
-        <p>A penalty point is given everytime they get a question wrong.</p>
+        <p>Intriguingly, the game offers a total of six distinct endings. Surprisingly, the ending numbers do not correlate with the penalty point numbers. This design adds an element of surprise and intrigue, making the learning journey even more captivating.</p>
         <br className="space-y-3"></br>
-        <p>The lower the penalty points, the better the ending.</p>
+        <p>In essence, this innovative approach to the unit review leverages gamification to elevate our understanding of Microeconomics. By incorporating immersive elements and creative twists, the experience offers a fun and effective method of learning, with students vying for the coveted higher-numbered endings as a testament to their mastery of the subject matter.</p>
         <br className="space-y-3"></br>
-        <p>There are a total of 6 endings with the higher the number ending, the better the ending.</p>
-        <br className="space-y-3"></br>
-        <p>The ending numbers do not correspond to the penalty point numbers.</p>
-        <br className="space-y-3"></br>
-        <h4 className=" font-semibold">
-          Goal: to get as many correct answers to win the heart of the textbook character like any other dating simulation</h4>
-        <br className="space-y-4"></br>
-        <h4 className=" font-semibold">Wrong Answer: Takes player to fitness center, the "dungeon" as BCA students call it + penalty point.</h4>
-
         <img src={micro} className="inline-photo"></img>
 
       </article>
