@@ -24,7 +24,7 @@ export default function Portfolio() {
             <figure><img src={Alumni} /></figure>
             <div className="card-body">
               <h2 className="card-title text-md">
-                Current: Alumni Portal
+                Alumni Portal
                 <div className="badge badge-outline text-md">FrontEnd</div>
               </h2>
               <div className="row flex flex-wrap gap-2 text-md">
@@ -33,7 +33,7 @@ export default function Portfolio() {
               </div>
               <p>Year-Long Senior Project</p>
               <div className="card-actions py-1 justify-end">
-                <a href="https://github.com/RemingtonKim/AcademiesAlumni">
+                <a href="https://github.com/BCA-Alumni-Portal/Alumni-Portal">
                   <button
                     className="text-sm border rounded py-2 px-4 bg-sky-100 hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-400 hover:border-sky-300  border-sky-100 hover:text-white">
                     github.io

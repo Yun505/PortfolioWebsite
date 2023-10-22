@@ -116,7 +116,7 @@ export default function Home() {
               </div>
               <p>Capstone Project </p>
               <div className="card-actions py-2 justify-end">
-                <a href="https://github.com/RemingtonKim/AcademiesAlumni">
+                <a href="https://github.com/BCA-Alumni-Portal/Alumni-Portal">
                   <button
                     className="text-sm border rounded py-2 px-4 bg-sky-100 hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-400 hover:border-sky-300  border-sky-100 hover:text-white">
                     github.io
