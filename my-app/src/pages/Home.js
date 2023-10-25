@@ -49,12 +49,12 @@ export default function Home() {
             <figure><img src={Ocaml} /></figure>
             <div className="card-body">
               <h2 className="card-title text-md">
-                Current: OCaml RPC
+                Current: OCaml SAT Solver
                 <div className="badge badge-outline text-md">Learning</div>
               </h2>
               <div className="row flex flex-wrap gap-2 text-md">
-                <div className="badge badge-outline text-md">Security</div>
-                <div className="badge badge-outline text-md">BackEnd</div>
+                <div className="badge badge-outline text-md">Math</div>
+                <div className="badge badge-outline text-md">GUI</div>
               </div>
               <p>Fun Side Project</p>
               <div className="card-actions py-1 justify-end">
@@ -145,7 +145,7 @@ export default function Home() {
       <div className="text-xl flex grid">
         <br className="space-y-4"></br>
         <div className="">
-          <h1 className="text-xl"><a className="underline text-semibold decoration-green-400 hover:text-green-500 " href="/misc">Click for Blog/Hobbies</a></h1>
+          <h1 className="text-xl"><a className="underline text-semibold decoration-green-400 hover:text-green-500 " href="https://yun505.github.io/blog/index.html">Click for Blog/Hobbies</a></h1>
           <br className="space-y-8"></br>
           <div className="container justify-start">
             <br className="space-y-2"></br>

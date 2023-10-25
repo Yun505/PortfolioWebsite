@@ -1,4 +1,6 @@
 import Alumni from "../images/Alumni.png";
+import Blog from "../images/Blog.png";
+import Ocaml from "../images/ocaml.png"
 import Natto from "../images/Natto.png";
 import Micro from "../images/Micro.png";
 import Rocket from "../images/Rocket.png";
@@ -20,6 +22,64 @@ export default function Portfolio() {
         <br className="space-y-5"></br>
 
         <div className="row flex flex-wrap items-center gap-12">
+        <div className="card bg-base-100 shadow-xl w-96">
+            <figure><img src={Ocaml} /></figure>
+            <div className="card-body">
+              <h2 className="card-title text-md">
+              Current: OCaml SAT Solver
+                <div className="badge badge-outline text-md">OCaml</div>
+              </h2>
+              <div className="row flex flex-wrap gap-2 text-md">
+                <div className="badge badge-outline text-md">Math</div>
+                <div className="badge badge-outline text-md">GUI</div>
+              </div>
+              <p>Fun Side Project</p>
+              <div className="card-actions py-1 justify-end">
+                <a href="https://github.com/Yun505/ocaml">
+                  <button
+                    className="text-sm border rounded py-2 px-4 bg-sky-100 hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-400 hover:border-sky-300  border-sky-100 hover:text-white">
+                    github.io
+                  </button>
+                </a>
+                <div>
+                  <a href="/ocaml">
+                    <button className="btn btn-sm border-sky-300 bg-sky-300 hover:border-sky-400 hover:bg-sky-400 btn-circle text-xs">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="16" height="16" viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"></path><path d="M11 11h2v6h-2zm0-4h2v2h-2z"></path></svg>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div className="card bg-base-100 shadow-xl w-96">
+            <figure><img src={Blog} /></figure>
+            <div className="card-body">
+              <h2 className="card-title text-md">
+                Personal Blog
+                <div className="badge badge-outline text-md">FrontEnd</div>
+              </h2>
+              <div className="row flex flex-wrap gap-2 text-md">
+                <div className="badge badge-outline text-md">Writing</div>
+                <div className="badge badge-outline text-md">Photography</div>
+              </div>
+
+              <div className="card-actions py-1 justify-end">
+                <a href="https://github.com/Yun505/blog">
+                  <button
+                    className="text-sm border rounded py-2 px-4 bg-sky-100 hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-400 hover:border-sky-300  border-sky-100 hover:text-white">
+                    github.io
+                  </button>
+                </a>
+                <div>
+                  <a href="/blog">
+                    <button className="btn btn-sm border-sky-300 bg-sky-300 hover:border-sky-400 hover:bg-sky-400 btn-circle text-xs">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="16" height="16" viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"></path><path d="M11 11h2v6h-2zm0-4h2v2h-2z"></path></svg>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="card bg-base-100 shadow-xl w-96">
             <figure><img src={Alumni} /></figure>
             <div className="card-body">

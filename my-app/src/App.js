@@ -9,7 +9,7 @@ import Alumni from "./pages/Alumni"
 import BlackJack from "./pages/BlackJack"
 import Micro from "./pages/Micro"
 import Music from "./pages/Music"
-// import Me from "./pages/Me"
+import Blog from "./pages/Blog"
 import Ocaml from "./pages/OCaml"
 import "./App.css";
 import { Route, Routes } from "react-router-dom"
@@ -31,7 +31,7 @@ function App() {
           <Route path="/music" element={<Music />} />
           <Route path="/natto" element={<Natto />} />
           <Route path="/rocket" element={<Rocket />} />
-          {/* <Route path="/me" element={<Me />} /> */}
+          <Route path="/blog" element={<Blog />} /> */
           <Route path="/ocaml" element={<Ocaml />} />
         </Routes>
       </div>
