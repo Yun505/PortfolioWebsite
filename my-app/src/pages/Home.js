@@ -1,4 +1,4 @@
-import Ocaml from "../images/ocaml.png";
+import Logo from "../images/logo.png";
 import music from "../images/Music.png";
 import Alumni from "../images/Alumni.png";
 import Me from "../images/me_profile.jpg";
@@ -46,26 +46,26 @@ export default function Home() {
         <br className="space-y-4"></br>
         <div className="row flex flex-wrap items-center gap-12">
           <div className="card bg-base-100 shadow-xl w-96">
-            <figure><img src={Ocaml} /></figure>
+            <figure><img src={Logo} /></figure>
             <div className="card-body">
               <h2 className="card-title text-md">
-                Current: OCaml SAT Solver
-                <div className="badge badge-outline text-md">Learning</div>
+                Current: ToMeet App
+                <div className="badge badge-outline text-md">Graphics</div>
               </h2>
               <div className="row flex flex-wrap gap-2 text-md">
-                <div className="badge badge-outline text-md">Math</div>
-                <div className="badge badge-outline text-md">GUI</div>
+                <div className="badge badge-outline text-md">Learning</div>
+                <div className="badge badge-outline text-md">App</div>
               </div>
-              <p>Fun Side Project</p>
+              <p>Long Distance Friendships</p>
               <div className="card-actions py-1 justify-end">
-                <a href="https://github.com/Yun505/OCaml-RPC">
+                <a href="https://github.com/Yun505/tomeet">
                   <button
                     className="text-sm border rounded py-2 px-4 bg-sky-100 hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-400 hover:border-sky-300  border-sky-100 hover:text-white">
                     github.io
                   </button>
                 </a>
                 <div>
-                  <a href="/ocaml">
+                  <a href="/meet">
                     <button className="btn btn-sm border-sky-300 bg-sky-300 hover:border-sky-400 hover:bg-sky-400 btn-circle text-xs">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="16" height="16" viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"></path><path d="M11 11h2v6h-2zm0-4h2v2h-2z"></path></svg>
                     </button>
@@ -147,7 +147,7 @@ export default function Home() {
         <div className="">
           <h1 className="text-xl"><a className="underline text-semibold decoration-green-400 hover:text-green-500 " href="https://yun505.github.io/blog/index.html">Click for Blog/Hobbies</a></h1>
           <br className="space-y-8"></br>
-          <div className="container justify-start">
+          {/* <div className="container justify-start">
             <br className="space-y-2"></br>
             <div tabIndex={0} className="collapse collapse-arrow border border-violet-700 bg-base-100 rounded-box">
               <div className="collapse-title text-md font-medium text-violet-700">
@@ -173,7 +173,7 @@ export default function Home() {
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/6lGImvjI_Sw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
-          </div>
+          </div> */}
           <br className="space-y-8"></br>
           <br className="space-y-8"></br>
         </div>

@@ -2,6 +2,7 @@ import Navbar from "./components/NavBar"
 import Home from "./pages/Home"
 // import Misc from "./pages/Misc"
 import Portfolio from "./pages/Portfolio"
+import Meet from "./pages/ToMeet"
 import Test from "./pages/Test"
 import Rocket from "./pages/Rocket"
 import Natto from "./pages/Natto"
@@ -31,8 +32,9 @@ function App() {
           <Route path="/music" element={<Music />} />
           <Route path="/natto" element={<Natto />} />
           <Route path="/rocket" element={<Rocket />} />
-          <Route path="/blog" element={<Blog />} /> */
+          <Route path="/blog" element={<Blog />} /> 
           <Route path="/ocaml" element={<Ocaml />} />
+          <Route path="/meet" element={<Meet />} />
         </Routes>
       </div>
     </div>
