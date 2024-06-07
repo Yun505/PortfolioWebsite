@@ -26,7 +26,7 @@ export default function Portfolio() {
             <figure><img src={Logo} /></figure>
             <div className="card-body">
               <h2 className="card-title text-md">
-                Current: ToMeet App
+                BackLog: ToMeet App
                 <div className="badge badge-outline text-md">Graphics</div>
               </h2>
               <div className="row flex flex-wrap gap-2 text-md">

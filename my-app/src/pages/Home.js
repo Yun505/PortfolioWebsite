@@ -24,17 +24,17 @@ export default function Home() {
             <br className="space-y-1"></br>
             <p>UMass Amherst Computer Science B.S.'26</p>
             <br className="space-y-1"></br>
-            <p>Current Activities: President of WICS, <a href="https://www.hackher413.com/" className="underline text-semibold decoration-sky-400 hover:text-sky-600"> Hack(H)er413 Assistant Head of Technology</a>, Manning Undergraduate Student Impact Committee (Member)</p>
+            <p>Current Activities: President of WiCyS, <a href="https://www.hackher413.com/" className="underline text-semibold decoration-sky-400 hover:text-sky-600"> Hack(H)er413 Head of Technology</a>, Manning Undergraduate Student Impact Committee (Member), Undergraduate Student Researcher[Math, Computer Vision]</p>
             {/* <p>Click on my profile on the right for random facts about me!</p> */}
           </div>
           <div className="col">
-            <div className="avatar">
-              <div className="rounded-xl ring ring-sky-500 ring-offset-base-500 ring-offset-2 items-center content-centered ">
+            {/* <div className="avatar">
+              <div className="rounded-xl ring ring-sky-500 ring-offset-base-500 ring-offset-2 items-center content-centered "> */}
                 {/* <a href="/me"> */}
-                <img src={Me} />
+                {/* <img src={Me} /> */}
                 {/* </a> */}
-              </div>
-            </div>
+              {/* </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -49,7 +49,7 @@ export default function Home() {
             <figure><img src={Logo} /></figure>
             <div className="card-body">
               <h2 className="card-title text-md">
-                Current: ToMeet App
+                BackLog: ToMeet App
                 <div className="badge badge-outline text-md">Graphics</div>
               </h2>
               <div className="row flex flex-wrap gap-2 text-md">
