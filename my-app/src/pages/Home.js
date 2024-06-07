@@ -2,6 +2,7 @@ import Logo from "../images/logo.png";
 import music from "../images/Music.png";
 import Alumni from "../images/Alumni.png";
 import Me from "../images/me_profile.jpg";
+import linkedin from "../images/linkedin.jpg";
 // import harbs from "../images/harbs.jpg"
 
 
@@ -28,13 +29,13 @@ export default function Home() {
             {/* <p>Click on my profile on the right for random facts about me!</p> */}
           </div>
           <div className="col">
-            {/* <div className="avatar">
-              <div className="rounded-xl ring ring-sky-500 ring-offset-base-500 ring-offset-2 items-center content-centered "> */}
-                {/* <a href="/me"> */}
-                {/* <img src={Me} /> */}
-                {/* </a> */}
-              {/* </div>
-            </div> */}
+            <div className="avatar">
+              <div className="  w-96 rounded-xl ring ring-sky-500 ring-offset-base-500 ring-offset-2 items-center content-centered "> 
+
+                <img src={linkedin} />
+
+              </div>
+            </div>
           </div>
         </div>
       </div>
