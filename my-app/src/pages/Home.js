@@ -8,10 +8,10 @@ import linkedin from "../images/linkedin.jpg";
 
 export default function Home() {
   return (
-    <div className="container pl-20 pr-20">
+    <div className="container pl-40 pr-20">
       <br></br>
       <br></br>
-      <div className="container pl-30 pr-30">
+      <div className="container pl-40 pr-30">
         <h1 className="text-6xl">Hayun Jung</h1>
         <br className="space-y-8"></br>
         <br className="space-y-8"></br>
@@ -25,7 +25,7 @@ export default function Home() {
             <br className="space-y-1"></br>
             <p>UMass Amherst Computer Science B.S.'26</p>
             <br className="space-y-1"></br>
-            <p>Current Activities: President of WiCyS, <a href="https://www.hackher413.com/" className="underline text-semibold decoration-sky-400 hover:text-sky-600"> Hack(H)er413 Head of Technology</a>, Manning Undergraduate Student Impact Committee (Member), Undergraduate Student Researcher[Math, Computer Vision]</p>
+            <p>Current Activities: President of WiCyS, <a href="https://www.hackher413.com/" className="underline text-semibold decoration-sky-400 hover:text-sky-600"> Hack(H)er413 Head of Technology</a>, Manning Undergraduate Student Impact Committee (Member), Student Researcher</p>
             {/* <p>Click on my profile on the right for random facts about me!</p> */}
           </div>
           <div className="col">

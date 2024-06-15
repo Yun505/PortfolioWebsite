@@ -10,10 +10,10 @@ import BlackJack from "../images/BlackJack.png";
 
 export default function Portfolio() {
   return (
-    <div className="container pl-20 pr-20">
+    <div className="container pl-40 pr-20">
       <br></br>
       <br></br>
-      <div className="text-xl grid pl-30 pr-30">
+      <div className="text-xl grid pl-30 ">
         <h3 className="text-6xl ">Portfolio</h3>
         <br className="space-y-5"></br>
         <br className="space-y-5"></br>
