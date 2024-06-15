@@ -2,7 +2,7 @@ import rocket from "../images/Rocket.png";
 
 export default function Rocket() {
   return (
-    <div className="container pl-20 pr-20">
+    <div className="container pl-40 pr-20">
       <br></br>
       <br></br>
       <br></br>

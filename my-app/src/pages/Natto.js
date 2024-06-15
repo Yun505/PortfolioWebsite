@@ -2,7 +2,7 @@ import sticky from "../images/Sticky.png";
 
 export default function Natto() {
   return (
-    <div className="container pl-20 pr-20">
+    <div className="container pl-40 pr-20">
       <br></br>
       <br></br>
       <br></br>

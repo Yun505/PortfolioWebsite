@@ -3,7 +3,7 @@ import micro from "../images/Micro.png";
 
 export default function Micro() {
   return (
-    <div className="container pl-20 pr-20">
+    <div className="container pl-40 pr-20">
       <br></br>
       <br></br>
       <br></br>

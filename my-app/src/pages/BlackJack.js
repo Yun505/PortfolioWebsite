@@ -3,7 +3,7 @@ import blackjack from "../images/BlackJack.png";
 
 export default function BlackJack() {
   return (
-    <div className="container pl-20 pr-20">
+    <div className="container pl-40 pr-20">
       <br></br>
       <br></br>
       <br></br>
