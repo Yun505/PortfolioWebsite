@@ -4,7 +4,7 @@ import Alumni from "../images/Alumni.png";
 import Me from "../images/me_profile.jpg";
 import linkedin from "../images/linkedin.jpg";
 // import harbs from "../images/harbs.jpg"
-
+import Twitter from "../images/twitter.png";
 
 export default function Home() {
   return (
@@ -46,7 +46,36 @@ export default function Home() {
         <h3 className="text-3xl ">Some Projects:</h3>
         <br className="space-y-4"></br>
         <div className="row flex flex-wrap items-center gap-12">
-          <div className="card bg-base-100 shadow-xl w-96">
+        <div className="card bg-base-100 shadow-xl w-96">
+            <figure><img src={Twitter} /></figure>
+            <div className="card-body">
+              <h2 className="card-title text-md">
+                X Sentiment Trading 
+                <div className="badge badge-outline text-md">X API</div>
+              </h2>
+              <div className="row flex flex-wrap gap-2 text-md">
+                <div className="badge badge-outline text-md">Machine Learning</div>
+                <div className="badge badge-outline text-md">Trading</div>
+              </div>
+              <p>Quantitative Trading [Profit]</p>
+              <div className="card-actions py-1 justify-end">
+                <a href="https://github.com/HenryLiu714/Sentiment-Analysis-Model">
+                  <button
+                    className="text-sm border rounded py-2 px-4 bg-sky-100 hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-400 hover:border-sky-300  border-sky-100 hover:text-white">
+                    github.io
+                  </button>
+                </a>
+                <div>
+                  <a href="/sentiment">
+                    <button className="btn btn-sm border-sky-300 bg-sky-300 hover:border-sky-400 hover:bg-sky-400 btn-circle text-xs">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="16" height="16" viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"></path><path d="M11 11h2v6h-2zm0-4h2v2h-2z"></path></svg>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <div className="card bg-base-100 shadow-xl w-96">
             <figure><img src={Logo} /></figure>
             <div className="card-body">
               <h2 className="card-title text-md">
@@ -74,7 +103,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure><img src={music} /></figure>
             <div className="card-body">
