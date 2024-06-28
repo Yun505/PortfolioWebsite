@@ -1,6 +1,6 @@
 import Navbar from "./components/NavBar"
 import Home from "./pages/Home"
-// import Misc from "./pages/Misc"
+import Sentiment from "./pages/SentimentClassifier"
 import Portfolio from "./pages/Portfolio"
 import Meet from "./pages/ToMeet"
 import Test from "./pages/Test"
@@ -23,7 +23,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          {/* <Route path="/misc" element={<Misc />} /> */}
+          <Route path="/sentiment" element={<Sentiment />} /> 
           <Route path="/test" element={<Test />} />
           <Route path="/alumni" element={<Alumni />} />
           <Route path="/blackjack" element={<BlackJack />} />
