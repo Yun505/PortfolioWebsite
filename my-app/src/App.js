@@ -18,8 +18,7 @@ import { Route, Routes } from "react-router-dom"
 function App() {
   return (
     <div>
-      <Navbar />
-      <div className="container">
+      {/* <div className="container"> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
@@ -36,7 +35,7 @@ function App() {
           <Route path="/ocaml" element={<Ocaml />} />
           <Route path="/meet" element={<Meet />} />
         </Routes>
-      </div>
+      {/* </div> */}
     </div>
   )
 }

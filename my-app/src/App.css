@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -26,7 +26,7 @@
   display: flex;
   gap: 1rem;
   padding: .25rem;
-}
+} */
 
 .inline-photo {
   border: 1em solid #fff;
