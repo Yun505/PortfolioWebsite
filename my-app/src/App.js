@@ -24,7 +24,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/sentiment" element={<Sentiment />} />
-          <Route path="/test" element={<Test />} />
+          {/* <Route path="/test" element={<Test />} /> */}
           <Route path="/alumni" element={<Alumni />} />
           <Route path="/blackjack" element={<BlackJack />} />
           <Route path="/home" element={<Home />} />
@@ -33,7 +33,7 @@ function App() {
           <Route path="/natto" element={<Natto />} />
           <Route path="/rocket" element={<Rocket />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/ocaml" element={<Ocaml />} />
+          {/* <Route path="/ocaml" element={<Ocaml />} /> */}
           <Route path="/meet" element={<Meet />} />
         </Routes>
       </div>
