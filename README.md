@@ -1,3 +1,3 @@
-# pv2
+# Portfolio Website
 
-Personal Website with projects 
+Made with React and Tailwind 
