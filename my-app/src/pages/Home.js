@@ -66,19 +66,16 @@ export default function Home() {
                 <button
                   className="text-sm border rounded py-2 px-4 bg-sky-100 hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-400 hover:border-sky-300  border-sky-100 hover:text-white"
                 >
-                  github.io
+                  Repository 
                 </button>
               </a>
               <div>
                 <a href="/sentiment">
-                  <button
-                    className="btn btn-sm border-sky-300 bg-sky-300 hover:border-sky-400 hover:bg-sky-400 btn-circle text-xs"
-                  >
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="16" height="16" viewBox="0 0 24 24">
-                      <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"></path>
-                      <path d="M11 11h2v6h-2zm0-4h2v2h-2z"></path>
-                    </svg>
-                  </button>
+                <button
+                  className="text-sm border rounded py-2 px-4 bg-sky-100 hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-400 hover:border-sky-300  border-sky-100 hover:text-white"
+                >
+                 Description
+                </button>
                 </a>
               </div>
             </div>
@@ -101,19 +98,16 @@ export default function Home() {
                 <button
                   className="text-sm border rounded py-2 px-4 bg-sky-100 hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-400 hover:border-sky-300  border-sky-100 hover:text-white"
                 >
-                  github.io
+                  Repository 
                 </button>
               </a>
               <div>
                 <a href="/music">
-                  <button
-                    className="btn btn-sm border-sky-300 bg-sky-300 hover:border-sky-400 hover:bg-sky-400 btn-circle text-xs"
-                  >
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="16" height="16" viewBox="0 0 24 24">
-                      <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"></path>
-                      <path d="M11 11h2v6h-2zm0-4h2v2h-2z"></path>
-                    </svg>
-                  </button>
+                <button
+                  className="text-sm border rounded py-2 px-4 bg-sky-100 hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-400 hover:border-sky-300  border-sky-100 hover:text-white"
+                >
+                 Description
+                </button>
                 </a>
               </div>
             </div>
@@ -136,19 +130,16 @@ export default function Home() {
                 <button
                   className="text-sm border rounded py-2 px-4 bg-sky-100 hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-400 hover:border-sky-300  border-sky-100 hover:text-white"
                 >
-                  github.io
+                  Repository 
                 </button>
               </a>
               <div>
                 <a href="/alumni">
-                  <button
-                    className="btn btn-sm border-sky-300 bg-sky-300 hover:border-sky-400 hover:bg-sky-400 btn-circle text-xs"
-                  >
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="16" height="16" viewBox="0 0 24 24">
-                      <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"></path>
-                      <path d="M11 11h2v6h-2zm0-4h2v2h-2z"></path>
-                    </svg>
-                  </button>
+                <button
+                  className="text-sm border rounded py-2 px-4 bg-sky-100 hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-400 hover:border-sky-300  border-sky-100 hover:text-white"
+                >
+                 Description
+                </button>
                 </a>
               </div>
             </div>
@@ -160,7 +151,7 @@ export default function Home() {
             <h1 className="text-xl">
               <a
                 className="underline text-semibold decoration-green-400 hover:text-green-500"
-                href="https://yun505.github.io/blog/index.html"
+                href="https://yun505.Repository /blog/index.html"
               >
                 Click for Blog/Hobbies
               </a>
