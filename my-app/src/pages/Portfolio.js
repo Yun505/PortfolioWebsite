@@ -8,6 +8,7 @@ import Rocket from "../images/Rocket.png";
 import Music from "../images/Music.png";
 import BlackJack from "../images/BlackJack.png";
 import Twitter from "../images/twitter.png";
+import Resy from "../images/resy.png"
 import { useModal } from '../components/VideoModalController';
 import VideoModal from "../components/VideoModal";
 
@@ -15,6 +16,10 @@ export default function Portfolio() {
   const { modals, openModal, closeModal, isModalOpen } = useModal();
 
   const content = {
+    resy:{
+      videoSrc: "https://path/to/sentiment-analysis-video.mp4",
+      description: "This is a detailed description of the sentiment analysis project.",
+    },
     sentiment: {
       videoSrc: "https://path/to/sentiment-analysis-video.mp4",
       description: "This is a detailed description of the sentiment analysis project.",
@@ -60,6 +65,15 @@ export default function Portfolio() {
   };
 
   const projects = [
+    {
+      image: Resy,
+      title: "Resy Roulette",
+      tags: ["Resy API", "Flask"],
+      description: "Indecisive Diners",
+      githubLink: "https://github.com/Yun505/resy_roulette",
+      modalId: "resy",
+      showModalButton: false,
+    },
     {
       image: Twitter,
       title: "X Sentiment Analysis",

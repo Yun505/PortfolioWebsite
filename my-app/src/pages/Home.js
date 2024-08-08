@@ -3,7 +3,7 @@ import profileImage from "../images/linkedin.jpg";
 import musicImage from "../images/Music.png";
 import alumniImage from "../images/Alumni.png";
 import twitterImage from "../images/twitter.png";
-
+import resyImage from "../images/resy.png"
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center">
@@ -51,33 +51,25 @@ export default function Home() {
 
           <div className="bg-base-100 shadow-xl rounded-lg w-80 p-4 flex flex-col items-center">
             <img
-              src={twitterImage}
-              alt="Sentiment Analysis Project"
+              src={resyImage}
+              alt=""
               className="w-full h-40 rounded-md"
             />
-            <h2 className="text-xl font-semibold mt-4"> X Sentiment Analysis</h2>
+            <h2 className="text-xl font-semibold mt-4"> Resy Roulette</h2>
             <div className="row flex flex-wrap gap-2 text-md ">
-              <div className="badge badge-outline text-md">X API</div>
-              <div className="badge badge-outline text-md">Trading</div>
+              <div className="badge badge-outline text-md">Resy API</div>
+              <div className="badge badge-outline text-md">Flask</div>
             </div>
-            <p className="flex-grow text-green-600">Quantitative Trading [Profit]</p>
+            <p className="flex-grow text-green-600">Indecisive Diners</p>
             <div className="card-actions py-1 justify-end">
-              <a href="https://github.com/HenryLiu714/Sentiment-Analysis-Model">
+              <a href="https://github.com/Yun505/resy_roulette">
                 <button
                   className="text-sm border rounded py-2 px-4 bg-sky-100 hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-400 hover:border-sky-300  border-sky-100 hover:text-white"
                 >
                   Repository 
                 </button>
               </a>
-              <div>
-                <a href="/sentiment">
-                <button
-                  className="text-sm border rounded py-2 px-4 bg-sky-100 hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-400 hover:border-sky-300  border-sky-100 hover:text-white"
-                >
-                 Description
-                </button>
-                </a>
-              </div>
+              
             </div>
           </div>
 
@@ -101,15 +93,7 @@ export default function Home() {
                   Repository 
                 </button>
               </a>
-              <div>
-                <a href="/music">
-                <button
-                  className="text-sm border rounded py-2 px-4 bg-sky-100 hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-400 hover:border-sky-300  border-sky-100 hover:text-white"
-                >
-                 Description
-                </button>
-                </a>
-              </div>
+             
             </div>
           </div>
 
@@ -133,15 +117,7 @@ export default function Home() {
                   Repository 
                 </button>
               </a>
-              <div>
-                <a href="/alumni">
-                <button
-                  className="text-sm border rounded py-2 px-4 bg-sky-100 hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-400 hover:border-sky-300  border-sky-100 hover:text-white"
-                >
-                 Description
-                </button>
-                </a>
-              </div>
+              
             </div>
           </div>
         </section>
