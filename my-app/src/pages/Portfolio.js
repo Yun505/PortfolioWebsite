@@ -99,7 +99,7 @@ export default function Portfolio() {
     {
       image: Micro,
       title: "AP Micro Dating Simulator",
-      tags: ["Python", "Photography", "Game Development", "Ren'Py"],
+      tags: ["Photography", "Ren'Py"],
       description: "Economies of Scale Review",
       githubLink: "https://github.com/Yun505/MicroDatingSimulation",
       modalId: "micro",
@@ -135,7 +135,7 @@ export default function Portfolio() {
     {
       image: BlackJack,
       title: "Digital BlackJack",
-      tags: ["Python", "Tkinter", "Game Development", "Photoshop"],
+      tags: ["Python",  "Photoshop"],
       description: "3 Modes of Play",
       githubLink: "https://github.com/Yun505/Midyear-Project-Blackjack",
       modalId: "blackjack",
@@ -145,7 +145,14 @@ export default function Portfolio() {
 
   return (
     <div className="min-h-screen flex flex-col items-center">
-      <h1 className="text-4xl text-green-700 py-5">Video Demos</h1>
+      <h1 className="text-4xl text-green-700 py-5">  <button
+                    className="btn btn-sm border-sky-300 bg-sky-300 hover:border-sky-400 hover:bg-sky-400 btn-circle text-xl"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="24" height="24" viewBox="0 0 24 24">
+                      <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"></path>
+                      <path d="M11 11h2v6h-2zm0-4h2v2h-2z"></path>
+                    </svg>
+                  </button> - Video Demos</h1>
       <main className="flex flex-col items-center w-full flex-1 text-center">
         <section className="flex flex-wrap justify-center gap-8 w-full px-4 py-10">
           {projects.map((project, index) => (
@@ -162,7 +169,7 @@ export default function Portfolio() {
                 {project.githubLink && (
                   <a href={project.githubLink}>
                     <button className="text-sm border rounded py-2 px-4 bg-sky-100 hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-400 hover:border-sky-300 border-sky-100 hover:text-white">
-                      github.io
+                      Repository 
                     </button>
                   </a>
                 )}
