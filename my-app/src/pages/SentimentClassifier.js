@@ -4,7 +4,7 @@ import Graph from "../images/sentiment.png";
 
 export default function Sentiment() {
     return (
-        <div className="container pl-20 pr-20">
+        <div className="min-h-screen flex flex-col items-center">
             <br></br>
             <br></br>
             <br></br>
@@ -36,9 +36,7 @@ export default function Sentiment() {
                 <br class="space-y-2"></br>
 
                 <h4 className="font-semibold">Team members: Hayun Jung, Henry Liu </h4>
-                {/* <br className="space-y-3"></br> */}
-{/* 
-                <br className="space-y-2"></br> */}
+                
 
                 <img src={Graph} className="inline-photo"></img>
             </article>

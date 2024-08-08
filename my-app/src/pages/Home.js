@@ -37,7 +37,7 @@ export default function Home() {
             </p>
             <p>
               <a
-                className="underline text-semibold decoration-green-400 hover:text-green-500 "
+                className="underline font-semibold text-green-400 hover:text-green-500"
                 href="mailto:yunjun505@gmail.com"
               >
                 yunjun505@gmail.com
@@ -48,7 +48,7 @@ export default function Home() {
 
         <h2 className="text-3xl text-green-700">Portfolio has videos for Select Projects.</h2>
         <section className="flex flex-wrap justify-center gap-8 w-full px-4 py-10">
-        
+
           <div className="bg-base-100 shadow-xl rounded-lg w-80 p-4 flex flex-col items-center">
             <img
               src={twitterImage}
