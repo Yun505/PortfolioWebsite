@@ -23,18 +23,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/sentiment" element={<Sentiment />} />
-          {/* <Route path="/test" element={<Test />} /> */}
-          <Route path="/alumni" element={<Alumni />} />
-          <Route path="/blackjack" element={<BlackJack />} />
+          
           <Route path="/home" element={<Home />} />
-          <Route path="/micro" element={<Micro />} />
-          <Route path="/music" element={<Music />} />
-          <Route path="/natto" element={<Natto />} />
-          <Route path="/rocket" element={<Rocket />} />
-          <Route path="/blog" element={<Blog />} />
-          {/* <Route path="/ocaml" element={<Ocaml />} /> */}
-          <Route path="/meet" element={<Meet />} />
+        
         </Routes>
       </div>
     </div>
