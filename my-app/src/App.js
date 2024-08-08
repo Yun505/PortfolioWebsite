@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import Sentiment from "./pages/SentimentClassifier";
 import Portfolio from "./pages/Portfolio";
 import Meet from "./pages/ToMeet";
-import Test from "./pages/Test";
+
 import Rocket from "./pages/Rocket";
 import Natto from "./pages/Natto";
 import Alumni from "./pages/Alumni";
@@ -11,7 +11,7 @@ import BlackJack from "./pages/BlackJack";
 import Micro from "./pages/Micro";
 import Music from "./pages/Music";
 import Blog from "./pages/Blog";
-import Ocaml from "./pages/OCaml";
+
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 

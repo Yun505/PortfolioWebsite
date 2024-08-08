@@ -46,7 +46,9 @@ export default function Home() {
           </div>
         </section>
 
+        <h2 className="text-3xl text-green-700">Portfolio has videos for Select Projects.</h2>
         <section className="flex flex-wrap justify-center gap-8 w-full px-4 py-10">
+        
           <div className="bg-base-100 shadow-xl rounded-lg w-80 p-4 flex flex-col items-center">
             <img
               src={twitterImage}
