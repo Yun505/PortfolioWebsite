@@ -2,8 +2,8 @@ import React from "react";
 import profileImage from "../images/linkedin.jpg";
 import musicImage from "../images/Music.png";
 import alumniImage from "../images/Alumni.png";
-import twitterImage from "../images/twitter.png";
-import resyImage from "../images/resy.png"
+// import twitterImage from "../images/twitter.png";
+import resyImage from "../images/resy.png";
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center">
@@ -12,7 +12,7 @@ export default function Home() {
         <section className="my-8 flex items-center justify-center">
           <img
             src={profileImage}
-            alt="My Picture"
+            alt="ALT"
             className="w-50 h-60  object-cover ring ring-sky-500 ring-offset-base-500 ring-offset-2 rounded"
           />
           <div className="ml-4 text-left">
