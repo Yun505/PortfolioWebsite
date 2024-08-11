@@ -127,7 +127,7 @@ export default function Home() {
             <h1 className="text-xl">
               <a
                 className="underline text-semibold decoration-green-400 hover:text-green-500"
-                href="https://yun505.Repository /blog/index.html"
+                href="https://yun505.github.io/blog/index.html"
               >
                 Click for Blog/Hobbies
               </a>
