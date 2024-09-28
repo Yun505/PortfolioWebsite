@@ -19,7 +19,7 @@ export default function Portfolio() {
   const content = {
     move:{
       videoSrc: "https://www.youtube.com/watch?v=JmsyGQDQh5g",
-      description:"Hack MIT Project"
+      description:"Suno Ai Incorporated"
     },
     // resy:{
     //   videoSrc: "https://path/to/sentiment-analysis-video.mp4",
@@ -74,7 +74,7 @@ export default function Portfolio() {
       image: Move,
       title: "MoveMatic",
       tags: ["FastAPI", "MongoDB", "AIST++ Dataset"],
-      description: "Hack MIT Project ",
+      description: "Suno AI Incorporated ",
       githubLink: "https://github.com/Yun505/JVXH_MIT_HACK",
       modalId: "move",
       showModalButton: true,

@@ -105,8 +105,9 @@ export default function Home() {
             />
             <h2 className="text-xl font-semibold mt-4">Alumni Portal</h2>
             <div className="row flex flex-wrap  text-md gap-2">
-              <div className="badge badge-outline text-md">Security</div>
-              <div className="badge badge-outline text-md">BackEnd</div>
+              <div className="badge badge-outline text-md">FullStack</div>
+              <div className="badge badge-outline text-md">Auth0</div>
+              <div className="badge badge-outline text-md">SQL</div>
             </div>
             <p className="flex-grow text-green-600">Capstone Project</p>
             <div className="card-actions py-1 justify-end">
