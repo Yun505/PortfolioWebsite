@@ -9,6 +9,7 @@ import Music from "../images/Music.png";
 import BlackJack from "../images/BlackJack.png";
 import Twitter from "../images/twitter.png";
 import Resy from "../images/resy.png"
+import Move from "../images/move.png"
 import { useModal } from '../components/VideoModalController';
 import VideoModal from "../components/VideoModal";
 
@@ -16,14 +17,18 @@ export default function Portfolio() {
   const { modals, openModal, closeModal, isModalOpen } = useModal();
 
   const content = {
-    resy:{
-      videoSrc: "https://path/to/sentiment-analysis-video.mp4",
-      description: "This is a detailed description of the sentiment analysis project.",
+    move:{
+      videoSrc: "https://www.youtube.com/watch?v=JmsyGQDQh5g",
+      description:"Hack MIT Project"
     },
-    sentiment: {
-      videoSrc: "https://path/to/sentiment-analysis-video.mp4",
-      description: "This is a detailed description of the sentiment analysis project.",
-    },
+    // resy:{
+    //   videoSrc: "https://path/to/sentiment-analysis-video.mp4",
+    //   description: "This is a detailed description of the sentiment analysis project.",
+    // },
+    // sentiment: {
+    //   videoSrc: "https://path/to/sentiment-analysis-video.mp4",
+    //   description: "This is a detailed description of the sentiment analysis project.",
+    // },
     tomeet: {
       videoSrc: "https://path/to/tomeet-app-video.mp4",
       description: "Description for another project.",
@@ -66,6 +71,15 @@ export default function Portfolio() {
 
   const projects = [
     {
+      image: Move,
+      title: "MoveMatic",
+      tags: ["FastAPI", "MongoDB", "AIST++ Dataset"],
+      description: "Hack MIT Project ",
+      githubLink: "https://github.com/Yun505/JVXH_MIT_HACK",
+      modalId: "move",
+      showModalButton: true,
+    },
+    {
       image: Resy,
       title: "Resy Roulette",
       tags: ["Resy API", "Flask"],
@@ -77,7 +91,7 @@ export default function Portfolio() {
     {
       image: Twitter,
       title: "X Sentiment Analysis",
-      tags: ["X API", "Trading"],
+      tags: ["X API", "Python"],
       description: "Quantitative Trading [Profit]",
       githubLink: "https://github.com/HenryLiu714/Sentiment-Analysis-Model",
       modalId: "sentiment",
@@ -86,7 +100,7 @@ export default function Portfolio() {
     {
       image: Logo,
       title: "BackLog: ToMeet App",
-      tags: ["Graphics", "Learning", "App"],
+      tags: ["Expo Go", "React"],
       description: "Long Distance Friendships",
       githubLink: "https://github.com/Yun505/tomeet",
       modalId: "tomeet",
@@ -104,7 +118,7 @@ export default function Portfolio() {
     {
       image: Alumni,
       title: "Alumni Portal",
-      tags: ["FrontEnd", "Security", "BackEnd"],
+      tags: ["FullStack", "Auth0", "SQL"],
       description: "Year-Long Senior Project",
       githubLink: "https://github.com/BCA-Alumni-Portal/Alumni-Portal",
       modalId: "alumni",
@@ -122,7 +136,7 @@ export default function Portfolio() {
     {
       image: Natto,
       title: "Natto Obstacle Course",
-      tags: ["C#", "Unity", "Game Development"],
+      tags: ["C#", "Unity"],
       description: "Two-level single player",
       githubLink: "https://github.com/Yun505/Natto_Obstacle_Course",
       modalId: "natto",
@@ -131,7 +145,7 @@ export default function Portfolio() {
     {
       image: Rocket,
       title: "Rocket Game",
-      tags: ["C#", "Unity", "Game Development"],
+      tags: ["C#", "Unity"],
       description: "Single Player",
       githubLink: "https://github.com/Yun505/rocket",
       modalId: "rocket",
@@ -149,7 +163,7 @@ export default function Portfolio() {
     {
       image: BlackJack,
       title: "Digital BlackJack",
-      tags: ["Python",  "Photoshop"],
+      tags: ["Python",  "Tkinter"],
       description: "3 Modes of Play",
       githubLink: "https://github.com/Yun505/Midyear-Project-Blackjack",
       modalId: "blackjack",
